@@ -2,8 +2,10 @@
 @import "_variables";
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext');
+
 @import "modules/header.scss";
 @import "modules/skills.scss";
+@import "modules/projects.scss";
 
 html {
   box-sizing: border-box;
@@ -22,4 +24,8 @@ body {
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
 }

@@ -8,7 +8,7 @@
         font-size: 2.25rem;  
         margin: 0 auto; 
         max-width: 1184px;
-        padding: 1rem 0;
+        margin: 0 auto 1rem;
     }
     &__description {
         color: $grey;
@@ -17,6 +17,7 @@
         font-size: 1.25rem;
         line-height: 2.25rem;
         max-width: 580px;
+        margin: 0 0 4rem;
     }
 }
 .projects-list {

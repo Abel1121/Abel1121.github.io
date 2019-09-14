@@ -1,143 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <section class="header">
-      <img class="header__image" src="assets/img/avatar.png" alt="Marek Kobyliński."/>
-      <h1 class="header__title">Hey there! 👋 My name is Marek and I’m an aspiring Frontend developer and a keen fit-lifestyle fan. </h1>
-      <p class="header__description">You might be interested in checking the list of <a class="header__link" href="#my-skills">my skills</a>. Don’t forget to  have a glimpse at <a class="header__link" href="#my-projects">my projects</a>. Currently I’m looking for a new challenges so if you have one - <a class="header__link" href="#contact">contact me</a> 😊</p>
-      <a class="header__mail" href="mailto:kobylinski.marek@wp.pl">kobylinski.marek@wp.pl</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <section class="header">
+    <img class="header__image" src="assets/img/avatar.png" alt="Marek Kobyliński." />
+    <h1 class="header__title">Hey there! 👋 My name is Marek and I’m an aspiring Frontend developer and a keen
+      fit-lifestyle fan. </h1>
+    <p class="header__description">You might be interested in checking the list of <a class="header__link"
+        href="#my-skills">my skills</a>. Don’t forget to have a glimpse at <a class="header__link"
+        href="#my-projects">my projects</a>. Currently I’m looking for a new challenges so if you have one - <a
+        class="header__link" href="#contact">contact me</a> 😊</p>
+    <a class="header__mail" href="mailto:kobylinski.marek@wp.pl">kobylinski.marek@wp.pl</a>
+  </section>
+  <section id="my-skills" class="skills">
+    <h2 class="skills__tittle">My Skills</h2>
+    <section class="skills-list">
+      <h3 class="skills-list__tittle">Working knowledge</h3>
+      <ul class="skills-list__list">
+        <li class="skills-list__item">Semantic HTML5</li>
+        <li class="skills-list__item">Flexbox</li>
+        <li class="skills-list__item">Markdown</li>
+        <li class="skills-list__item">JS: Local storage</li>
+        <li class="skills-list__item">Figma</li>
+        <li class="skills-list__item">CSS grid</li>
+        <li class="skills-list__item">Forms</li>
+        <li class="skills-list__item">JS: DOM manipulations</li>
+        <li class="skills-list__item">SASS</li>
+      </ul>
     </section>
-    <section id="my-skills" class="skills">
-      <h2 class="skills__tittle">My Skills</h2>
-      <section class="skills-list">
-        <h3 class="skills-list__tittle">Working knowledge</h3>
-        <ul class="skills-list__list">
-          <li class="skills-list__item">Semantic HTML5</li>
-          <li class="skills-list__item">Flexbox</li>
-          <li class="skills-list__item">Markdown</li>
-          <li class="skills-list__item">JS: Local storage</li>
-          <li class="skills-list__item">Figma</li>
-          <li class="skills-list__item">CSS grid</li>
-          <li class="skills-list__item">Forms</li>
-          <li class="skills-list__item">JS: DOM manipulations</li>
-          <li class="skills-list__item">SASS</li>
-        </ul>
-      </section>
-      <section class="skills-list skills-list--violet">
-        <h3 class="skills-list__tittle">Know something about</h3>
-        <ul class="skills-list__list">
-          <li class="skills-list__item">JavaScript ES6+ features</li>
-          <li class="skills-list__item">CSS animations</li>
-          <li class="skills-list__item">Working with API</li>
-          <li class="skills-list__item">NPM Scripts</li>
-          <li class="skills-list__item">Progressive web apps</li>
-          <li class="skills-list__item">Git</li>
-          <li class="skills-list__item">Accessibility</li>
-        </ul>
-      </section>
-      <section class="skills-list skills-list--blue">
-        <h3 class="skills-list__tittle">Want to learn</h3>
-        <ul class="skills-list__list">
-          <li class="skills-list__item">React JS</li>
-          <li class="skills-list__item">Node.JS</li>
-          <li class="skills-list__item">Electron</li>
-          <li class="skills-list__item">Server side rendering</li>
-          <li class="skills-list__item">Typescript</li>
-          <li class="skills-list__item">Gatsby</li>
-          <li class="skills-list__item">Websockets</li>
-        </ul>
-      </section>
+    <section class="skills-list skills-list--violet">
+      <h3 class="skills-list__tittle">Know something about</h3>
+      <ul class="skills-list__list">
+        <li class="skills-list__item">JavaScript ES6+ features</li>
+        <li class="skills-list__item">CSS animations</li>
+        <li class="skills-list__item">Working with API</li>
+        <li class="skills-list__item">NPM Scripts</li>
+        <li class="skills-list__item">Progressive web apps</li>
+        <li class="skills-list__item">Git</li>
+        <li class="skills-list__item">Accessibility</li>
+      </ul>
     </section>
-    <section id="my-projects" class="projects">
-      <h2 class="projects__tittle">Recent projects</h2>
-      <div class="container">
-      <p class="projects__description">I started my frontend developer path in 2003. Since then, I’ve built some projects. Here’s the list of the things I’ve done so far.</p>
+    <section class="skills-list skills-list--blue">
+      <h3 class="skills-list__tittle">Want to learn</h3>
+      <ul class="skills-list__list">
+        <li class="skills-list__item">React JS</li>
+        <li class="skills-list__item">Node.JS</li>
+        <li class="skills-list__item">Electron</li>
+        <li class="skills-list__item">Server side rendering</li>
+        <li class="skills-list__item">Typescript</li>
+        <li class="skills-list__item">Gatsby</li>
+        <li class="skills-list__item">Websockets</li>
+      </ul>
+    </section>
+  </section>
+  <section id="my-projects" class="projects">
+    <h2 class="projects__tittle">Recent projects</h2>
+    <div class="container">
+      <p class="projects__description">I started my frontend developer path in 2003. Since then, I’ve built some
+        projects. Here’s the list of the things I’ve done so far.</p>
       <ul class="projects-list">
         <li class="project">
           <div class="project__container">
-          <img class="project__logo" src="assets/img/github.svg" alt="">
-          <h3 class="project__tittle">podlaskigit</h3>
-          <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
-        </div>
+            <img class="project__logo" src="assets/img/github.svg" alt="">
+            <h3 class="project__tittle">podlaskigit</h3>
+            <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+          </div>
           <div class="project__footer">
             <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
             <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
           </div>
         </li>
         <li class="project">
-            <div class="project__container">
+          <div class="project__container">
             <img class="project__logo" src="assets/img/github.svg" alt="">
             <h3 class="project__tittle">podlaskigit</h3>
             <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
           </div>
-            <div class="project__footer">
-              <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
-              <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
-            </div>
-          </li>
-          <li class="project">
-              <div class="project__container">
-              <img class="project__logo" src="assets/img/github.svg" alt="">
-              <h3 class="project__tittle">podlaskigit</h3>
-              <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
-            </div>
-              <div class="project__footer">
-                <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
-                <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
-              </div>
-            </li>
-            <li class="project">
-                <div class="project__container">
-                <img class="project__logo" src="assets/img/github.svg" alt="">
-                <h3 class="project__tittle">podlaskigit</h3>
-                <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
-              </div>
-                <div class="project__footer">
-                  <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
-                  <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
-                </div>
-              </li>
-              <li class="project">
-                  <div class="project__container">
-                  <img class="project__logo" src="assets/img/github.svg" alt="">
-                  <h3 class="project__tittle">podlaskigit</h3>
-                  <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
-                </div>
-                  <div class="project__footer">
-                    <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
-                    <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
-                  </div>
-                </li>
-            </ul>
+          <div class="project__footer">
+            <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
+            <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
           </div>
-    </section>
-    <footer id="contact" class="contact">
-      <h2 class="contact__tittle">Contact</h2>
-      <p class="contact__description">I’m open for new opportunities. If you have one for me we should talk!</p>
-      <ul class="social">
-        <li class="soccial__item">
-          <a class="soccial__link" href="#">
-            <img class="soccial__icon" src="assets/img/facebook.svg" alt="facebook"></a>
         </li>
-        <li class="soccial__item">
-          <a class="soccial__link" href="">
-            <img class="soccial__icon" src="assets/img/github-white.svg" alt="github"></a>
+        <li class="project">
+          <div class="project__container">
+            <img class="project__logo" src="assets/img/github.svg" alt="">
+            <h3 class="project__tittle">podlaskigit</h3>
+            <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+          </div>
+          <div class="project__footer">
+            <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
+            <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
+          </div>
         </li>
-        <li class="soccial__item">
-          <a class="soccial__link" href="">
-            <img class="soccial__icon" src="assets/img/instagram.svg" alt="instagram"></a>
+        <li class="project">
+          <div class="project__container">
+            <img class="project__logo" src="assets/img/github.svg" alt="">
+            <h3 class="project__tittle">podlaskigit</h3>
+            <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+          </div>
+          <div class="project__footer">
+            <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
+            <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
+          </div>
+        </li>
+        <li class="project">
+          <div class="project__container">
+            <img class="project__logo" src="assets/img/github.svg" alt="">
+            <h3 class="project__tittle">podlaskigit</h3>
+            <p class="project__description">Podlaskie aliasy dla gitowych komend</p>
+          </div>
+          <div class="project__footer">
+            <a class="project__link project__link--demo" href="#" tittle="Demo: podlaskigit.">Demo</a>
+            <a class="project__link project__link--code" href="#" tittle="Source code: podlaskigit.">Github</a>
+          </div>
         </li>
       </ul>
-      <a class="Contact__mail" href="mailto:kobylinski.marek@wp.pl">kobylinski.marek@wp.pl</a>
-    </footer>
-    <script src="js/main.js"></script>
-  </body>
+    </div>
+  </section>
+  <footer id="contact" class="contact">
+    <h2 class="contact__tittle">Contact</h2>
+    <div class="container">
+      <p class="contact__description">I’m open for new opportunities. If you have one for me we should talk!</p>
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="soccial__icon" src="assets/img/facebook.svg" alt="facebook"></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="soccial__icon" src="assets/img/github-white.svg" alt="github"></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__icon" src="assets/img/instagram.svg" alt="instagram"></a>
+        </li>
+      </ul>
+      <a class="contact__mail" href="mailto:kobylinski.marek@wp.pl">kobylinski.marek@wp.pl</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

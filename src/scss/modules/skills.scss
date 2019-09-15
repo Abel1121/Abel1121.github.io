@@ -1,8 +1,7 @@
 .skills {
-    max-width: 1184px;
+    max-width: 1216px;
     margin: 0 auto 8rem;
-
-
+    padding: 0 16px;
     &__tittle {
         font-style: normal;
         font-weight: 600;
@@ -14,7 +13,7 @@
 }
 .skills-list {
     display: grid;
-    padding: 8rem 0 0;
+    padding: 8rem 0px 0;
     grid-template-columns: 1fr 1fr;
 
     &__tittle {

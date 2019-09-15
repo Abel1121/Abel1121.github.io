@@ -46,6 +46,8 @@
     box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
     border-radius: 8px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
     &__container {
@@ -113,10 +115,10 @@
             margin-right: 8px;
             width: 24px;
             height: 24px;
-            background-image: url('../assets/img/demo.svg') center center no-repeat;
+            background: url('../assets/img/demo.svg') center center no-repeat;
         }
         &--code::before {
-            background-image: url('../assets/img/code.svg') center center no-repeat;
+            background: url('../assets/img/code.svg') center center no-repeat;
         }
     }
 }

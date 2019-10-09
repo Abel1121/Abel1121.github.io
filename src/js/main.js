@@ -2,7 +2,7 @@ console.log(`Zatrudnij mnie, nie mam co jeść!`);
 
 const list = document.querySelector('.project-list--js');
 
-fetch(`https://api.github.com/users/Abel1121/repos?sort=pushed?direction=desc`)
+fetch(`https://api.github.com/users/Abel1121/repos?sort=updated?direction=desc`)
   .then(resp => resp.json())
   .then(resp => {
     const repos = resp;
